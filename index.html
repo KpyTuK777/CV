@@ -229,11 +229,22 @@
           <p class="lab-lead">Незалежний дослідницький і продуктовий проєкт для роботи з операційними ситуаціями — від первинного дослідження до рішення, впровадження змін, моніторингу та стабілізації.</p>
           <p>Проєкт допомагає мені поєднати теорію менеджменту, системне мислення, продуктове проєктування та власний практичний досвід організації роботи.</p>
           <div class="tags large">
-            <span>Operational Memory</span><span>Investigation</span><span>Decision Cycle</span><span>Process Design</span><span>HTML / CSS</span><span>GitHub</span>
+            <span>Operational Memory</span><span>Investigation</span><span>Decision Cycle</span><span>Process Design</span>
           </div>
         </div>
-        <div class="os-diagram" role="img" aria-label="Схема циклу Management OS: дослідження, розуміння, рішення, зміна, моніторинг, стабілізація">
-          <div class="os-center">Management<br>OS</div>
+        <div class="os-diagram" role="img" aria-label="Замкнений цикл Management OS: дослідження, рішення, зміна, моніторинг і повернення до нового дослідження">
+          <svg class="cycle-arrows" viewBox="0 0 500 500" aria-hidden="true">
+            <defs>
+              <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+                <path d="M0,0 L8,4 L0,8 Z"></path>
+              </marker>
+            </defs>
+            <path d="M286 72 A190 190 0 0 1 428 214" marker-end="url(#arrowhead)"></path>
+            <path d="M430 286 A190 190 0 0 1 286 428" marker-end="url(#arrowhead)"></path>
+            <path d="M214 428 A190 190 0 0 1 72 286" marker-end="url(#arrowhead)"></path>
+            <path d="M72 214 A190 190 0 0 1 214 72" marker-end="url(#arrowhead)"></path>
+          </svg>
+          <div class="os-center">Management OS</div>
           <div class="orbit orbit-1"><span>Дослідження</span></div>
           <div class="orbit orbit-2"><span>Рішення</span></div>
           <div class="orbit orbit-3"><span>Зміна</span></div>
@@ -242,7 +253,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section professional-development">
       <div class="container split-grid">
         <div>
           <div class="section-heading small">
@@ -252,38 +263,43 @@
           <div class="development-card">
             <p><strong>2023–2026 — перерва в кар’єрі по догляду за синами</strong>, поєднана з частковою зайнятістю в NAVI та професійним розвитком.</p>
             <ul>
-              <li>115-годинний курс із побудови вебінтерфейсів у 2025 році.</li>
+              <li>115-годинний курс із якісної побудови web-інтерфейсів (HTML, CSS, JS), 2025.</li>
               <li>Самостійне системне вивчення операційного менеджменту.</li>
               <li>Проєктування та розробка Management OS.</li>
               <li>Практика роботи з HTML, CSS, Git, GitHub, Notion і AI-інструментами.</li>
             </ul>
           </div>
         </div>
-
-        <div>
+        <div class="tools-panel">
           <div class="section-heading small">
-            <p class="eyebrow">Education & Tools</p>
-            <h2>Освіта та інструменти</h2>
+            <p class="eyebrow">Tools & Languages</p>
+            <h2>Інструменти та мови</h2>
           </div>
-          <div class="detail-list">
-            <article>
-              <h3>Менеджмент організацій</h3>
-              <p>НПУ імені М. П. Драгоманова</p>
-              <span>Спеціаліст, 2011 · Бакалавр, 2010</span>
-            </article>
-            <article>
-              <h3>Operations & Productivity</h3>
-              <p>Notion, Google Workspace, Microsoft Office, AI-assisted workflows</p>
-            </article>
-            <article>
-              <h3>Web & Content</h3>
-              <p>HTML, CSS, Git, GitHub, VS Code, WordPress, YouTube Studio, Subtitle Edit</p>
-            </article>
-            <article>
-              <h3>Мови</h3>
-              <p>Українська — рідна · Російська — вільно</p>
-              <span>Англійська — A2+; робота з професійною термінологією зі словником</span>
-            </article>
+          <div class="tool-groups">
+            <article><h3>Operations & Productivity</h3><ul><li>Notion</li><li>Google Workspace</li><li>Microsoft Office</li><li>AI-assisted workflows</li></ul></article>
+            <article><h3>Web & Content</h3><ul><li>HTML, CSS, базовий JavaScript</li><li>Git, GitHub, VS Code</li><li>WordPress, YouTube Studio</li><li>Subtitle Edit, Adobe Premiere, Photoshop</li></ul></article>
+            <article><h3>Мови</h3><ul><li>Українська — рідна</li><li>Російська — вільно</li><li>Англійська — A2+; професійна термінологія зі словником</li></ul></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container education-grid">
+        <div class="section-heading education-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Профільна вища освіта в менеджменті</h2>
+          <p>П’ять років системного навчання за спеціальністю «Менеджмент організацій» — фундамент, на який я спираюся у переході до операційного менеджменту.</p>
+        </div>
+        <div class="education-card">
+          <div class="education-years">2006–2011</div>
+          <div>
+            <p class="education-institution">Національний педагогічний університет імені М. П. Драгоманова</p>
+            <h3>Менеджмент організацій</h3>
+            <div class="education-levels">
+              <span><strong>Спеціаліст</strong> · 2010–2011</span>
+              <span><strong>Бакалавр</strong> · 2006–2010</span>
+            </div>
           </div>
         </div>
       </div>
@@ -298,8 +314,9 @@
         </div>
         <div class="contact-card">
           <a href="mailto:sergey.gorbachenko1989@gmail.com">sergey.gorbachenko1989@gmail.com</a>
+          <a href="tel:+380930791989">+38 (093) 079-19-89</a>
           <span>Київ, Україна</span>
-          <span>LinkedIn — після оновлення профілю</span>
+          <a href="https://www.linkedin.com/in/serhii-horbachenko-0a2921167" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
     </section>

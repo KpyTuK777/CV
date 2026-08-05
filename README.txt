@@ -1,21 +1,13 @@
-SERHII HORBACHENKO — PERSONAL CV WEBSITE
+SERHII HORBACHENKO — CV LANDING PAGE
 
-Як відкрити:
-1. Розпакуйте архів.
-2. Відкрийте файл index.html подвійним кліком.
-3. Сторінка працює локально без інтернету.
+Open index.html in a browser.
 
-Структура:
-- index.html — зміст сторінки
-- styles.css — дизайн і адаптивність
-- assets/serhii-horbachenko.jpg — фотографія
-
-Що варто оновити пізніше:
-- додати URL оновленого LinkedIn;
-- додати посилання на Management OS / GitHub;
-- замінити текстові wordmark-блоки на офіційні SVG-логотипи компаній;
-- за потреби додати телефон;
-- уточнити назву та організатора 115-годинного курсу.
-
-Друк / PDF:
-Відкрийте сторінку в Chrome або Safari → Друк → Зберегти як PDF.
+Updated:
+- aligned timeline dates without desktop wrapping;
+- added directional arrows to the closed Management OS cycle;
+- enlarged and centered the Management OS core;
+- removed HTML/CSS and GitHub from managerial project concepts;
+- separated education from tools;
+- emphasized 5-year Management of Organizations education at NPU Dragomanov;
+- added phone and LinkedIn contact details;
+- retained the original user-provided portrait.
