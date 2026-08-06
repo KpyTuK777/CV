@@ -426,5 +426,16 @@
 				<a href="#top">На початок ↑</a>
 			</div>
 		</footer>
+		<script>
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
+  window.addEventListener("load", () => {
+    if (!window.location.hash) {
+      window.scrollTo(0, 0);
+    }
+  });
+</script>
 	</body>
 </html>
