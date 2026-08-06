@@ -52,12 +52,12 @@ h1, h2, h3, h4 { margin-top: 0; line-height: 1.12; }
 h1 { margin-bottom: 28px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(58px, 8vw, 108px); font-weight: 500; letter-spacing: -.055em; }
 .hero-lead { max-width: 720px; margin: 0; color: #464943; font-size: 18px; }
 .hero-quote { max-width: 740px; margin: 34px 0 0; padding: 20px 0 20px 24px; border-left: 2px solid var(--brass); font-family: Georgia, "Times New Roman", serif; font-size: 21px; color: var(--navy); }
-.hero-actions { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 12px; }
+.hero-actions { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 50px; justify-content: center;}
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: 14px; transition: transform .2s ease, background .2s ease; }
 .button:hover { transform: translateY(-2px); }
 .button-primary { background: var(--navy); color: var(--white); }
 .button-secondary { border: 1px solid var(--line); background: rgba(255,255,255,.28); }
-.quick-facts { display: flex; flex-wrap: wrap; gap: 28px; margin: 40px 0 0; padding: 0; list-style: none; }
+.quick-facts { display: flex; flex-wrap: wrap; gap: 50px; margin: 40px 0 0; padding: 0; list-style: none; justify-content: center;}
 .quick-facts li { min-width: 110px; }
 .quick-facts strong { display: block; font-family: Georgia, serif; font-size: 28px; color: var(--navy); }
 .quick-facts span { display: block; color: var(--muted); font-size: 13px; }
@@ -313,3 +313,12 @@ li + li { margin-top: 9px; }
   .cycle-arrows path { stroke-width: 5; }
   .os-center { inset: 32%; font-size: 18px; }
 }
+
+.quick-facts > li {
+	text-align: center;
+}
+
+.quick-facts > li:first-child {
+	padding-top: 6px;
+}
+
