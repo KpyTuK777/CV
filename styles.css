@@ -322,3 +322,108 @@ li + li { margin-top: 9px; }
 	padding-top: 6px;
 }
 
+.cv-download {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding: 34px 38px;
+  border: 1px solid rgba(180, 148, 90, 0.28);
+  border-radius: var(--radius, 22px);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 253, 248, 0.92),
+      rgba(231, 224, 212, 0.78)
+    );
+  box-shadow: 0 20px 50px rgba(16, 27, 32, 0.07);
+}
+
+.cv-download__content {
+  max-width: 680px;
+}
+
+.cv-download__label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--brass, #b4945a);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.cv-download__title {
+  margin: 0 0 10px;
+  color: var(--navy, #101b20);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(25px, 3vw, 36px);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.cv-download__description {
+  margin: 0;
+  color: var(--muted, #6d706b);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.cv-download__button {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 24px;
+  border: 1px solid var(--navy, #101b20);
+  border-radius: 999px;
+  background: var(--navy, #101b20);
+  color: var(--white, #fffdf8);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cv-download__button:hover {
+  transform: translateY(-2px);
+  background: var(--brass, #b4945a);
+  border-color: var(--brass, #b4945a);
+  color: #101b20;
+  box-shadow: 0 12px 28px rgba(16, 27, 32, 0.16);
+}
+
+.cv-download__button:focus-visible {
+  outline: 3px solid rgba(180, 148, 90, 0.45);
+  outline-offset: 4px;
+}
+
+.cv-download__icon {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 720px) {
+  .cv-download {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 24px;
+    padding: 28px 24px;
+  }
+
+  .cv-download__button {
+    width: 100%;
+  }
+}
+
+@media print {
+  .cv-download {
+    display: none;
+  }
+}
