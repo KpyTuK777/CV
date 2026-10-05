@@ -315,3 +315,14 @@ a:focus-visible { outline: 3px solid var(--brass); outline-offset: 5px; }
   .education-section, .education-card { background: white; color: black; }
   .education-section h2, .education-section p, .education-section span, .education-section strong, .education-years { color: black !important; }
 }
+
+.download-section { padding-block: 64px; }
+.download-card { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding: 36px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }
+.download-card > div { max-width: 680px; }
+.download-card h2 { font-family: Georgia, serif; font-size: clamp(32px, 4vw, 48px); font-weight: 500; margin-bottom: 16px; }
+.download-card p:last-child { margin: 0; color: var(--muted); }
+.download-card .button { flex-shrink: 0; }
+@media (max-width: 640px) {
+  .download-card { flex-direction: column; align-items: stretch; padding: 24px; }
+}
+@media print { .download-section { display: none; } }
